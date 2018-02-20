@@ -1,0 +1,10 @@
+.auth {
+  display: flex;
+  font-size: 5vw;
+  width: 30vw;
+  margin: 30vh auto;
+}
+
+a:hover {
+  text-decoration: none;
+}

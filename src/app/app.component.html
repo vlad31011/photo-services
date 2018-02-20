@@ -1,0 +1,7 @@
+<div *ngIf="!photoService.token">
+  <a href="{{photoService.auth}}"><span class="auth"><i class="fa fa-vk fa-1x">Authorization</i></span> </a>
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
